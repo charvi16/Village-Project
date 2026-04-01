@@ -1,0 +1,105 @@
+.family-tree-page {
+  padding-bottom: 6rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tree-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.tree-node {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(0, 109, 119, 0.1);
+  position: relative;
+  z-index: 10;
+  min-width: 250px;
+}
+
+.root-node {
+  border: 2px solid var(--color-secondary);
+  box-shadow: 0 10px 25px -5px rgba(255, 184, 0, 0.2);
+}
+
+.child-node {
+  border-left: 4px solid var(--color-primary);
+}
+
+.grandchild-node {
+  border-left: 4px solid var(--color-outline);
+}
+
+.node-avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: var(--radius-full);
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-headline);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.node-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.node-info strong {
+  font-family: var(--font-headline);
+  color: var(--color-outline);
+  font-size: 1.125rem;
+}
+
+.node-info span {
+  font-size: 0.75rem;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tree-branches {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.tree-branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tree-line {
+  position: absolute;
+  top: -2rem;
+  width: 2px;
+  height: 2rem;
+  background-color: rgba(124, 88, 0, 0.2);
+}
+
+/* For simplicity in CSS representation of a tree, this is a linear vertical layout. 
+   A full D3 or mapping library would be better for complex horizontal trees, 
+   but this fulfills the pure CSS UI requirement structurally. */

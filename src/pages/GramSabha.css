@@ -1,0 +1,87 @@
+.sabha-page {
+  padding-bottom: 6rem;
+}
+
+.sabha-content {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.sabha-section {
+  background-color: var(--color-white);
+  padding: 2.5rem;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(0, 109, 119, 0.1);
+}
+
+.flex { display: flex; }
+.justify-between { justify-content: space-between; }
+.items-center { align-items: center; }
+.mb-6 { margin-bottom: 1.5rem; }
+.block { display: block; }
+
+.table-responsive {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.sabha-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.sabha-table th {
+  padding: 1rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-primary);
+  border-bottom: 2px solid rgba(0, 109, 119, 0.1);
+}
+
+.sabha-table td {
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid rgba(124, 88, 0, 0.1);
+  vertical-align: middle;
+}
+
+.row-upcoming {
+  background-color: rgba(255, 184, 0, 0.05);
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-badge.upcoming {
+  background-color: var(--color-secondary);
+  color: var(--color-outline);
+}
+
+.status-badge.completed {
+  background-color: rgba(0, 109, 119, 0.1);
+  color: var(--color-primary);
+}
+
+.btn-secondary-outline {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-outline);
+  color: var(--color-outline);
+  border-radius: var(--radius-lg);
+  font-size: 0.75rem;
+  font-weight: bold;
+  transition: all 0.2s;
+  background: transparent;
+}
+
+.btn-secondary-outline:hover {
+  background-color: var(--color-outline);
+  color: var(--color-white);
+}

@@ -1,0 +1,80 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  height: var(--nav-height);
+  background-color: rgba(253, 249, 240, 0.9);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-background);
+  box-shadow: 0 4px 20px rgba(0, 109, 119, 0.05);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar-logo {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--color-outline);
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-link {
+  font-family: var(--font-headline);
+  font-size: 1.125rem;
+  color: var(--color-primary);
+  opacity: 0.8;
+  transition: opacity 0.2s, color 0.2s;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: var(--color-outline);
+  opacity: 1;
+  font-weight: bold;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.btn-lang {
+  padding: 0.375rem 1rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 0.875rem;
+  transition: all 0.2s;
+}
+
+.btn-lang:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.icon-btn {
+  color: var(--color-primary);
+  padding: 0.5rem;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.icon-btn:hover {
+  background-color: rgba(255, 184, 0, 0.1);
+}

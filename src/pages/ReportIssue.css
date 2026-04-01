@@ -1,0 +1,82 @@
+.report-page {
+  padding-bottom: 6rem;
+}
+
+.report-form-container {
+  max-width: 48rem;
+  margin: 0 auto;
+  background-color: var(--color-white);
+  padding: 3rem;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(0, 109, 119, 0.1);
+}
+
+.report-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-family: var(--font-headline);
+  font-size: 1rem;
+  color: var(--color-outline);
+  font-weight: 700;
+}
+
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(124, 88, 0, 0.2);
+  background-color: var(--color-surface);
+  font-family: var(--font-body);
+  transition: all 0.2s;
+  color: var(--color-on-surface);
+  font-size: 1rem;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.form-input:focus, .form-textarea:focus {
+  outline: none;
+  border-color: var(--color-outline);
+  box-shadow: 0 0 0 3px rgba(124, 88, 0, 0.1);
+  background-color: var(--color-white);
+}
+
+.form-submit {
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.125rem;
+}
+
+.success-message {
+  text-align: center;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: var(--color-primary);
+}
+
+.success-icon {
+  font-size: 4rem;
+  color: var(--color-secondary);
+}
+
+.success-title {
+  font-family: var(--font-headline);
+  font-size: 2rem;
+  color: var(--color-outline);
+}

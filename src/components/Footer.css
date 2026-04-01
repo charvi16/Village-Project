@@ -1,0 +1,71 @@
+.footer {
+  width: 100%;
+  margin-top: auto;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s;
+  padding: 4rem 1.5rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footer-brand {
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+}
+
+.footer-logo {
+  font-family: var(--font-headline);
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-copyright {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-secondary);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.footer-link {
+  color: #D6D3D1; /* stone-300 */
+  transition: opacity 0.2s, color 0.2s;
+}
+
+.footer-link:hover {
+  color: var(--color-white);
+}
