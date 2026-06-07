@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Vaidya Rajesh",
+    "role": "Healer",
+    "age": 68,
+    "bornInVillage": true,
+    "bio": "Vaidya Rajesh has served the community for decades through traditional healing, public health guidance, and care for elders.",
+    "contributions": [
+      {
+        "title": "Organized Village Health Camp",
+        "date": "Last month"
+      },
+      {
+        "title": "Mentored Young Herbalists",
+        "date": "3 months ago"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ananya",
+    "role": "Teacher",
+    "age": 25,
+    "bornInVillage": true,
+    "bio": "Ananya teaches at the village school and coordinates after-school reading circles for children.",
+    "contributions": [
+      {
+        "title": "Started Evening Study Circle",
+        "date": "2 weeks ago"
+      },
+      {
+        "title": "Led Library Cataloging",
+        "date": "2 months ago"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Baba Ram Singh",
+    "role": "Elder",
+    "age": 82,
+    "bornInVillage": true,
+    "bio": "Baba Ram Singh is a respected elder whose oral histories preserve the village's memories and customs.",
+    "contributions": [
+      {
+        "title": "Recorded Oral Histories",
+        "date": "Last week"
+      },
+      {
+        "title": "Advised Council Mediation",
+        "date": "1 month ago"
+      }
+    ]
+  }
+]
